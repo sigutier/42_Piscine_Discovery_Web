@@ -1,0 +1,48 @@
+body,
+html {
+    height: 100%;
+}
+
+.parallax {
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax p {
+    padding-left: 50%;
+    padding-top: 50%;
+    font-size: 10px;
+}
+
+.uno {
+    background-image: url("42.jpg");
+}
+
+.dos {
+    background-image: url("mapa.jpg");
+}
+
+.container {
+    background-color: black;
+    width: 100%;
+    padding-top: 200px;
+    /* 1:1 Aspect Ratio */
+    position: relative;
+}
+
+/* If you want text inside of the container */
+.text {
+    color: aliceblue;
+    position: absolute;
+    top: 100;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

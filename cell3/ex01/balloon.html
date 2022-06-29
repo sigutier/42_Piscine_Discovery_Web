@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex01</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column-reverse;
+        }
+
+        .balloon {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 10px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="balloon red" id="balloon" onclick="myclick()" onmouseleave="myhover()"></div>
+
+    <script>
+        function color_plus() {
+            var balloon = document.getElementById("balloon").classList
+            //rojo-verde-azul-rojo
+            if (balloon.contains("red")) {
+                balloon.remove("red");
+                balloon.add("green");
+            } else if (balloon.contains("green")) {
+                balloon.remove("green");
+                balloon.add("blue");
+            } else if (balloon.contains("blue")) {
+                balloon.remove("blue");
+                balloon.add("red");
+            }
+        }
+
+        function color_less() {
+            var balloon = document.getElementById("balloon").classList
+            //rojo-azul-verde-rojo
+            if (balloon.contains("red")) {
+                balloon.remove("red");
+                balloon.add("blue");
+            } else if (balloon.contains("blue")) {
+                balloon.remove("blue");
+                balloon.add("green");
+            } else if (balloon.contains("green")) {
+                balloon.remove("green");
+                balloon.add("red");
+            }
+        }
+
+        //aumentar el globo 10px con cada click hasta 420px
+        function myclick() {
+            var balloon = document.getElementById("balloon");
+            color_plus();
+            if (balloon.style.width <= "420") {
+                balloon.style.width = (balloon.offsetWidth + 10) + "px";
+                balloon.style.height = (balloon.offsetHeight + 10) + "px";
+            } else {
+                balloon.style.width = "200px";
+                balloon.style.height = "200px";
+            }
+        }
+
+        //reducir el globo 5px alejando el ratón hasta 200px
+        function myhover() {
+            var balloon = document.getElementById("balloon");
+            color_less();
+            balloon.style.width = Math.max(200, balloon.offsetWidth - 5) + "px";
+            balloon.style.height = Math.max(200, balloon.offsetHeight - 5) + "px";
+        }
+    </script>
+
+</body>
+
+</html>
