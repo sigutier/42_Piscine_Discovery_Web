@@ -1,0 +1,60 @@
+* {
+    font-family: Arial;
+}
+
+ul {
+    display: none;
+}
+
+input:checked~ul {
+    display: block;
+}
+
+input {
+    display: none;
+}
+
+label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+}
+
+/* Estilo del boton cuando se pasa el mouse por encima*/
+label:hover {
+    background: grey;
+}
+
+/* Estilo del boton cuando el menú está expandido*/
+input:checked~label {
+    background: lightgrey;
+}
+
+ul {
+    margin-top: 0;
+    padding: 0;
+    width: 200px;
+
+}
+
+
+li {
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+}
+
+/*Estilo cuando el mouse pasa encima de cada link del menu*/
+li:hover {
+    filter: brightness(110%);
+}
