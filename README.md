@@ -24,4 +24,4 @@ Web projects carried out during the discovery piscine of 42 Malaga, using HTML, 
 About 1 week
 
 ### Web projects :globe_with_meridians:
-[Rush](file:///C:/Users/silvi/Desktop/discovery_piscine/Rush/rush.html)
+[Rush](https://sigutier.github.io/42_Piscine_Discovery_Web/Rush/rush.html)
