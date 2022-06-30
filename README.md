@@ -23,6 +23,8 @@ Web projects carried out during the discovery piscine of 42 Malaga, using HTML, 
 ### Programming Time ⏰
 About 1 week
 
+<br>
+
 ### Web projects 🌐
 - [Basics](https://sigutier.github.io/42_Piscine_Discovery_Web/cell1/ex04/basics.html)
 - [Parrallax](https://sigutier.github.io/42_Piscine_Discovery_Web/cell2/ex02/parrallax.html)
