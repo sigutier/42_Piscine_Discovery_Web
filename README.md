@@ -23,3 +23,5 @@ Web projects carried out during the discovery piscine of 42 Malaga, using HTML, 
 ### Programming Time ⏰
 About 1 week
 
+### Web projects :globe_with_meridians:
+[Rush](https://sigutier.github.io/42_Piscine_Discovery_Web/Rush/rush.html)
