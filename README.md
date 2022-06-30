@@ -27,7 +27,7 @@ About 1 week
 
 ### Web projects 🌐
 - [Basics](https://sigutier.github.io/42_Piscine_Discovery_Web/cell1/ex04/basics.html)
-- [Parrallax](https://sigutier.github.io/42_Piscine_Discovery_Web/cell2/ex02/parrallax.html)
+- [Parrallax](https://sigutier.github.io/42_Piscine_Discovery_Web/cell2/ex02/parallax.html)
 - [Card](https://sigutier.github.io/42_Piscine_Discovery_Web/cell2/ex03/card.html)
 - [Change color](https://sigutier.github.io/42_Piscine_Discovery_Web/cell3/ex00/backgroound.html)
 - [Balloon](https://sigutier.github.io/42_Piscine_Discovery_Web/cell3/ex01/balloon.html)
