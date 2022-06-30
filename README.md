@@ -24,9 +24,9 @@ Web projects carried out during the discovery piscine of 42 Malaga, using HTML, 
 About 1 week
 
 ### Web projects 🌐
-[Basics](https://sigutier.github.io/42_Piscine_Discovery_Web/cell1/ex04/basics.html)
-[Parrallax](https://sigutier.github.io/42_Piscine_Discovery_Web/cell2/ex02/parrallax.html)
-[Card](https://sigutier.github.io/42_Piscine_Discovery_Web/cell2/ex03/card.html)
-[Change color](https://sigutier.github.io/42_Piscine_Discovery_Web/cell3/ex00/backgroound.html)
-[Balloon](https://sigutier.github.io/42_Piscine_Discovery_Web/cell3/ex01/balloon.html)
-[Rush](https://sigutier.github.io/42_Piscine_Discovery_Web/Rush/rush.html)
+- [Basics](https://sigutier.github.io/42_Piscine_Discovery_Web/cell1/ex04/basics.html)
+- [Parrallax](https://sigutier.github.io/42_Piscine_Discovery_Web/cell2/ex02/parrallax.html)
+- [Card](https://sigutier.github.io/42_Piscine_Discovery_Web/cell2/ex03/card.html)
+- [Change color](https://sigutier.github.io/42_Piscine_Discovery_Web/cell3/ex00/backgroound.html)
+- [Balloon](https://sigutier.github.io/42_Piscine_Discovery_Web/cell3/ex01/balloon.html)
+- [Rush](https://sigutier.github.io/42_Piscine_Discovery_Web/Rush/rush.html)
