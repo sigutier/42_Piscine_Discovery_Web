@@ -16,8 +16,7 @@ Web projects carried out during the discovery piscine of 42 Malaga, using HTML, 
 * [x] **Cellule1:** HTML and CSS
 * [x] **Cellule2:** HTML, CSS and JavaScript
 * [x] **Cellule3:** HTML, CSS and JavaScript
-* [x] **Cellule4:** Rush
-
+* [x] **Rush**
 <br>
 
 ### Programming Time ⏰
