@@ -1,5 +1,7 @@
 # 42 Piscine Discovery Web 🏊
-
+<h1 alinear="centro">
+	🧰 levantar
+</h1>
 Web projects carried out during the discovery piscine of 42 Malaga, using HTML, CSS and JavaScript.
 
 <br>
